@@ -6,5 +6,8 @@ function generateRandomArray()
 	return auxArray;	
 }
 var myStupidArray = generateRandomArray();
+//console.log(myStupidArray);
 
 //Your code here
+var totalItems = myStupidArray.length;
+console.log(totalItems);

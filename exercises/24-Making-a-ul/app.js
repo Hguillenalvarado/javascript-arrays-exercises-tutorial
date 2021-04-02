@@ -9,11 +9,16 @@ let allColors = [
 ];
 
 function generateLI(color){
-	// your code here
+    // your code here
+    return color.sexy===true;
+//let filtrar=tasks.filter(function(verdadero){
+   //return verdadero.done === true;
+
 }
 
 function filterColors(color){
-	// your code here
+    // your code here
+    generateLI(color);
 }
 
 function generateHTMLFromArray(array){

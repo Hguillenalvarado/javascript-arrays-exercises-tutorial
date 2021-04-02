@@ -3,4 +3,18 @@ let counts = {};
 
 // your code here
 
-console.log(counts);
+let oracion="Pura vida";
+ //console.log(oracion.length);
+
+for(i=0;i<oracion.length;i++){
+oracion.charAt(i);
+    contar=0;
+    for(j=0;j<oracion.length;j++)
+        if(oracion.charAt(i)==oracion.charAt(j)){
+            contar=contar+1
+        }
+;
+console.log(oracion.charAt(i)+" : "+contar);
+}
+
+//console.log(counts);

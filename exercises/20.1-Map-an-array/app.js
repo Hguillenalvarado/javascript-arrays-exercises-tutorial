@@ -1,9 +1,12 @@
 var arrayOfCelsiusValues = [-2,34,56,-10];
 
-var arrayOfFahrenheitValues = arrayOfCelsiusValues.map(function(value){
 	
-	//add your code here and return the new value
-	
-});
+    //add your code here and return the new value
+    
+var conversionfahren= function(values){ 
+	return values*1.8 +32;
+}
+
+var arrayOfFahrenheitValues = arrayOfCelsiusValues.map(conversionfahren);
 
 console.log(arrayOfFahrenheitValues);

@@ -10,3 +10,10 @@ let tasks = [
 ];
 
 //your code here
+
+let filtrar=tasks.filter(function(verdadero){
+   return verdadero.done === true;
+});
+
+
+console.log(filtrar);
